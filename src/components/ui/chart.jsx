@@ -217,7 +217,7 @@ const ChartTooltipContent = React.forwardRef(
             );
           })}
         </div>
-        <div className="absolute w-6 h-6 -translate-x-[50%] rotate-45 bg-white -bottom-1.5 left-[50%] -z-10"></div>
+        <div className="absolute w-6 h-6 -translate-x-[50%] rotate-45 bg-white -bottom-1.5 left-[50%] -z-10 shadow-md"></div>
       </div>
     );
   }
